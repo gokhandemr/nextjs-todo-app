@@ -1,0 +1,26 @@
+.header h1 {
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header>:nth-child(2) {
+    margin-bottom: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.header h1 span {
+    animation: shakeSpan .5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes shakeSpan {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }

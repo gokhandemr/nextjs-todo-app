@@ -1,0 +1,22 @@
+.footer {
+    border-top: 1px solid rgba(128, 128, 128, 0.473);
+    color: #ddd;
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer>div button,
+.footer>div a {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    color: #ddd;
+}
+
+.footer>div button:hover {
+    text-decoration: underline;
+}
